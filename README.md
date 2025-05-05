@@ -15,4 +15,5 @@ output
 
 ![Screenshot 2025-05-05 233644](https://github.com/user-attachments/assets/40d1a74d-0fff-465f-9cb1-f93b130d56ed)
 
-Use st.sidebar to let users choose filters like player names, teams, or seasons. Organize your content with st.columns or st.tabs to separate stats like scoring, assists, and rebounds. Use st.expander to hide or reveal deeper insights such as advanced analytics, player comparisons, or team history.
+The app uses `st.sidebar.selectbox` to filter and display individual basketball player stats like points, assists, and rebounds. It organizes content with `st.columns` for side-by-side stats and `st.expander` to toggle advanced stats, with an option to view the full dataset through `st.dataframe`.
+
